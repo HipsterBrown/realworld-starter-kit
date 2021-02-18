@@ -1,3 +1,5 @@
+// import { sendParent } from "xstate";
+
 export default {
   id: "app",
   initial: "Home",
@@ -37,7 +39,9 @@ export default {
       },
     },
     Editor: {
-      on: {},
+      on: {
+        PUBLISHED: "Article",
+      },
     },
     Profile: {
       on: {},
