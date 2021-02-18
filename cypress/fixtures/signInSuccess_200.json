@@ -1,0 +1,12 @@
+{
+    "user": {
+        "id": 143255,
+        "email": "first@last.co",
+        "createdAt": "2021-02-18T02:31:07.622Z",
+        "updatedAt": "2021-02-18T02:31:07.629Z",
+        "username": "FirstLast",
+        "bio": null,
+        "image": null,
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTQzMjU1LCJ1c2VybmFtZSI6IkZpcnN0TGFzdCIsImV4cCI6MTYxODc5OTY4Nn0.UA2dU6Rgl20WeUHDTKl6UZwCGvDFkKcdA5qnvTmSxHA"
+    }
+}

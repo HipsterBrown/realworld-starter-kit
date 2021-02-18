@@ -1,0 +1,345 @@
+{
+  "articles": [
+    {
+      "title": "Whalen Frey",
+      "slug": "whalen-frey-36snfe",
+      "body": "Winter is coming.",
+      "createdAt": "2021-02-17T22:05:07.714Z",
+      "updatedAt": "2021-02-17T22:05:07.714Z",
+      "tagList": [],
+      "description": "Farwynd of the Lonely Light",
+      "author": {
+        "username": "karateUser",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Symond Botley",
+      "slug": "symond-botley-efdzaf",
+      "body": "Winter is coming.",
+      "createdAt": "2021-02-17T22:04:29.853Z",
+      "updatedAt": "2021-02-17T22:04:29.853Z",
+      "tagList": [],
+      "description": "Lipps",
+      "author": {
+        "username": "karateUser",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Martyn Lannister",
+      "slug": "martyn-lannister-csdm6i",
+      "body": "Once you’ve accepted your flaws, no one can use them against you.",
+      "createdAt": "2021-02-17T22:02:25.898Z",
+      "updatedAt": "2021-02-17T22:02:25.898Z",
+      "tagList": [],
+      "description": "Fossoway of New Barrel",
+      "author": {
+        "username": "karateUser",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Anders Yronwood",
+      "slug": "anders-yronwood-xby5dr",
+      "body": "Nothing burns like the cold.",
+      "createdAt": "2021-02-17T22:00:13.761Z",
+      "updatedAt": "2021-02-17T22:00:13.761Z",
+      "tagList": [],
+      "description": "Payne",
+      "author": {
+        "username": "karateUser",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Matt",
+      "slug": "matt-1zmn4h",
+      "body": "Nothing burns like the cold.",
+      "createdAt": "2021-02-17T21:58:49.780Z",
+      "updatedAt": "2021-02-17T21:58:49.780Z",
+      "tagList": [],
+      "description": "Rogers of Amberly",
+      "author": {
+        "username": "karateUser",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "dqwdq",
+      "slug": "dqwdq-2w3ot4",
+      "body": "dwqdqd",
+      "createdAt": "2021-02-17T21:58:46.599Z",
+      "updatedAt": "2021-02-17T21:58:46.599Z",
+      "tagList": [],
+      "description": "qdwdqd",
+      "author": {
+        "username": "testov",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "TEST",
+      "slug": "test-d9r97e",
+      "body": "TEST",
+      "createdAt": "2021-02-17T21:58:12.462Z",
+      "updatedAt": "2021-02-17T21:58:12.462Z",
+      "tagList": [],
+      "description": "TEST",
+      "author": {
+        "username": "tadastestas",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Testando com o Elton",
+      "slug": "testando-com-o-elton-u9iolt",
+      "body": "sdcv ",
+      "createdAt": "2021-02-17T21:49:33.821Z",
+      "updatedAt": "2021-02-17T21:49:33.821Z",
+      "tagList": [],
+      "description": "Hello",
+      "author": {
+        "username": "TestElton",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "This is a title",
+      "slug": "this-is-a-title-48ftxv",
+      "body": "This is a body of the Article",
+      "createdAt": "2021-02-17T21:07:31.692Z",
+      "updatedAt": "2021-02-17T21:07:31.692Z",
+      "tagList": [],
+      "description": "This is a description",
+      "author": {
+        "username": "julz",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "This is a title",
+      "slug": "this-is-a-title-7kjtcv",
+      "body": "This is a body of the Article",
+      "createdAt": "2021-02-17T21:07:27.890Z",
+      "updatedAt": "2021-02-17T21:07:27.890Z",
+      "tagList": [],
+      "description": "This is a description",
+      "author": {
+        "username": "julz",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "art1",
+      "slug": "art1-tq1lwu",
+      "body": "qwqwqw",
+      "createdAt": "2021-02-17T21:03:27.450Z",
+      "updatedAt": "2021-02-17T21:03:27.450Z",
+      "tagList": [],
+      "description": "qwqwq",
+      "author": {
+        "username": "unouser1",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "test",
+      "slug": "test-4a6g96",
+      "body": "test 2",
+      "createdAt": "2021-02-17T20:58:44.183Z",
+      "updatedAt": "2021-02-17T20:58:44.183Z",
+      "tagList": [],
+      "description": "test 1",
+      "author": {
+        "username": "hiimadam",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Agilizei turma 04",
+      "slug": "agilizei-turma-04-8iulea",
+      "body": "Aut dignissimos animi omnis ut ratione voluptas aut ullam optio. Ipsum dignissimos in dignissimos et reiciendis ea repellendus reiciendis voluptatibus. Est eligendi aut fugiat et possimus ratione ipsa quis.",
+      "createdAt": "2021-02-17T20:50:47.774Z",
+      "updatedAt": "2021-02-17T20:50:47.774Z",
+      "tagList": [],
+      "description": "Agilizei turma 04 Cypress",
+      "author": {
+        "username": "Agilizei RWC",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "art1",
+      "slug": "art1-btqalq",
+      "body": "qwqwqw",
+      "createdAt": "2021-02-17T20:47:30.945Z",
+      "updatedAt": "2021-02-17T20:47:30.945Z",
+      "tagList": [],
+      "description": "qwqwq",
+      "author": {
+        "username": "unouser1",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "This is a title",
+      "slug": "this-is-a-title-ptfzx8",
+      "body": "This is a body of the Article",
+      "createdAt": "2021-02-17T20:41:20.903Z",
+      "updatedAt": "2021-02-17T20:41:20.903Z",
+      "tagList": [],
+      "description": "This is a description",
+      "author": {
+        "username": "julz",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "This is a title",
+      "slug": "this-is-a-title-xu44sv",
+      "body": "This is a body of the Article",
+      "createdAt": "2021-02-17T20:41:17.305Z",
+      "updatedAt": "2021-02-17T20:41:17.305Z",
+      "tagList": [],
+      "description": "This is a description",
+      "author": {
+        "username": "julz",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "art1",
+      "slug": "art1-yufq72",
+      "body": "qwqwqw",
+      "createdAt": "2021-02-17T20:37:37.863Z",
+      "updatedAt": "2021-02-17T20:37:37.863Z",
+      "tagList": [],
+      "description": "qwqwq",
+      "author": {
+        "username": "unouser1",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "This is a title",
+      "slug": "this-is-a-title-n6dfwx",
+      "body": "This is a body of the Article",
+      "createdAt": "2021-02-17T20:35:48.784Z",
+      "updatedAt": "2021-02-17T20:35:48.784Z",
+      "tagList": [],
+      "description": "This is a description",
+      "author": {
+        "username": "julz",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "This is a title",
+      "slug": "this-is-a-title-u6ldnb",
+      "body": "This is a body of the Article",
+      "createdAt": "2021-02-17T20:35:44.790Z",
+      "updatedAt": "2021-02-17T20:35:44.790Z",
+      "tagList": [],
+      "description": "This is a description",
+      "author": {
+        "username": "julz",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Request from API",
+      "slug": "request-from-api-jgniqf",
+      "body": "Angular is cool",
+      "createdAt": "2021-02-17T20:30:01.173Z",
+      "updatedAt": "2021-02-17T20:30:01.173Z",
+      "tagList": [],
+      "description": "API testing is easy",
+      "author": {
+        "username": "julz",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    }
+  ],
+  "articlesCount": 50
+}
