@@ -1,5 +1,3 @@
-// import { sendParent } from "xstate";
-
 export default {
   id: "app",
   initial: "Home",
@@ -10,13 +8,16 @@ export default {
         CLICK_SIGN_UP: "SignUp",
         CLICK_ARTICLE: "Article",
         CLICK_AUTHOR: "Profile",
+        CLICK_TAG: "HomeTag",
       },
     },
+    HomeTag: {},
     HomeAuth: {
       on: {
         CLICK_NEW_POST: "Editor",
         CLICK_SETTINGS: "Settings",
         CLICK_MY_PROFILE: "MyProfile",
+        CLICK_ARTICLE: "Comment",
       },
     },
     SignIn: {
@@ -38,19 +39,27 @@ export default {
         CLICK_AUTHOR: "Profile",
       },
     },
+    Comment: {},
     Editor: {
       on: {
-        PUBLISHED: "Article",
+        CLICK_HOME: "HomeAuth",
       },
     },
     Profile: {
-      on: {},
+      on: {
+        CLICK_HOME: "Home",
+      },
     },
     MyProfile: {
-      on: {},
+      on: {
+        CLICK_HOME: "HomeAuth",
+      },
     },
     Settings: {
-      on: {},
+      on: {
+        CLICK_HOME: "HomeAuth",
+      },
+      // onDone: "MyProfile",
     },
   },
 };

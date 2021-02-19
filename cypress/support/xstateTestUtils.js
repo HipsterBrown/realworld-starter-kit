@@ -1,6 +1,8 @@
 import { Machine } from "xstate";
 import { createModel } from "@xstate/test";
 
+export const testNoOp = () => {};
+
 export const applyTest = (state, testFn) => {
   state.meta = { ...state.meta, test: testFn };
 };
@@ -19,21 +21,21 @@ const applyTests = (machine, tests) => {
       throw new Error(`applyTests called with invalid key: ${key}`);
     }
   });
+  return machine;
 };
 
 export const applyNestedMachine = (machine, parentState, nestedMachine) => {
+  // clear parentState tests to avoid confusion later
+  const state = machine.states[parentState];
   machine.states[parentState] = {
-    ...machine.states[parentState],
+    ...state,
     ...nestedMachine,
   };
   return machine;
 };
 
-export const createTestMachine = (machine, tests) => {
-  applyTests(machine, tests);
-  console.log(machine);
-  return Machine(machine);
-};
+export const createTestMachine = (machine, tests) =>
+  Machine(applyTests(machine, tests));
 
 export const createTestModel = (machine, events) =>
   createModel(machine, { events });
@@ -64,3 +66,17 @@ export const itVisitsAndRunsPathTests = (url, ...setupFn) => (path) =>
     if (setupFn.length) setupFn.forEach((fn) => fn());
     cy.visit(url).then(path.test);
   });
+
+export const printVizHint = (testTitle, testMachine) => {
+  console.info(
+    testTitle,
+    "- Copy and paste the following JSON into the XState Visualizer:"
+  );
+  console.info("https://xstate.js.org/viz/");
+  console.info(
+    `Machine(${JSON.stringify({
+      ...testMachine,
+      id: testTitle,
+    })});`
+  );
+};

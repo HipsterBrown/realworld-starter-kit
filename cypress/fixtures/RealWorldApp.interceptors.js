@@ -5,7 +5,7 @@ export function getArticlesInterceptor() {
     "https://conduit.productionready.io/api/articles?limit=20&offset=0",
     {
       fixture: "articles.json",
-      delay: 200,
+      delay: 100,
     }
   ).as("getArticles");
 }
@@ -13,7 +13,7 @@ export function getArticlesInterceptor() {
 export function getTagsInterceptor() {
   cy.intercept("https://conduit.productionready.io/api/tags", {
     fixture: "tags.json",
-    delay: 200,
+    delay: 100,
   }).as("getTags");
 }
 
@@ -25,7 +25,7 @@ export function registerUserInterceptor() {
     },
     {
       fixture: "signUpSuccess_200.json",
-      delay: 500,
+      delay: 200,
     }
   ).as("registerUser");
 }
@@ -38,7 +38,7 @@ export function postUserLoginInterceptor() {
     },
     {
       fixture: "signInSuccess_200.json",
-      delay: 500,
+      delay: 100,
     }
   ).as("postUserLogin");
 }

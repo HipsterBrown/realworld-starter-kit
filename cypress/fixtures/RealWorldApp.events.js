@@ -16,6 +16,9 @@ export default {
   CLICK_HAVE_ACCOUNT: function () {
     cy.contains("Have an account?").click();
   },
+  CLICK_TAG: function () {
+    cy.get('[href="/?tag=dragons"]').click();
+  },
   CLICK_ARTICLE: function () {
     cy.get(".preview-link > h1").first().click();
   },
@@ -53,7 +56,33 @@ export default {
     cy.get(".article-page");
   },
   CLICK_SETTINGS: function () {
-    cy.get(".nav-link").contains("Settings").click();
+    cy.get(".navbar").contains("Settings").click();
+  },
+  "COMMENT.EDIT": function () {
+    cy.get("textarea#body").type("This is a comment.");
+  },
+  "COMMENT.POST": function () {
+    cy.get("button").contains("Post Comment").click();
+  },
+  "COMMENT.POSTED": function () {},
+  "COMMENT.DELETE": function () {
+    cy.get(".card-footer > button > .ion-trash-a").click({
+      multiple: true,
+      force: true,
+    });
+  },
+  "SETTINGS.EDIT": function () {
+    cy.get("#bio").type("I'm a little teapot...");
+    cy.get("#password").type("password");
+  },
+  "SETTINGS.LOGOUT": function () {
+    cy.get("button").contains("click here to logout").click();
+  },
+  "SETTINGS.UPDATE": function () {
+    cy.get("button").contains("Update Settings").click();
+  },
+  "SETTINGS.UPDATED": function () {
+    cy.url().should("contain", "/profile");
   },
   CLICK_MY_PROFILE: function () {
     cy.get(".nav-link").contains("FirstLast").click();

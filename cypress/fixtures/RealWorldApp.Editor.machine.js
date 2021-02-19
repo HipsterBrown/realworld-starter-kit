@@ -1,5 +1,3 @@
-// import { sendParent } from "xstate";
-
 export default {
   initial: "clean",
   states: {
@@ -22,12 +20,10 @@ export default {
     publishing: {
       on: {
         PUBLISH_COMPLETE: "published",
-        // PUBLISH_COMPLETE: {
-        //   target: "published",
-        //   actions: sendParent("PUBLISHED"),
-        // },
       },
     },
-    published: {},
+    published: {
+      type: "final",
+    },
   },
 };
