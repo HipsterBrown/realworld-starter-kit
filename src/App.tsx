@@ -3,7 +3,7 @@ import { Router, Switch, Redirect, Route, RouteProps } from "react-router-dom";
 import { useMachine } from "@xstate/react";
 import { inspect } from "@xstate/inspect";
 import { history } from "./utils/history";
-import { isProd } from "./utils/env";
+import { isCypress, isProd } from "./utils/env";
 import { appMachine, UserState } from "./machines/app.machine";
 import type { User } from "./types/api";
 import { Header } from "./components/Header";
@@ -15,9 +15,10 @@ import { Settings } from "./pages/Settings";
 import { Profile } from "./pages/Profile";
 import { Article } from "./pages/Article";
 
-if (!isProd()) {
+// Do not start the inspector in Production or within Cypress
+if (!isProd() && !isCypress()) {
   inspect({
-    iframe: false
+    iframe: false,
   });
 }
 
@@ -35,7 +36,9 @@ export const App: React.FC = () => {
 
   if (current.context?.auth === null) return null;
   const userState =
-    (current.toStrings().find(state => state.includes("user.")) as UserState) ||
+    (current
+      .toStrings()
+      .find((state) => state.includes("user.")) as UserState) ||
     "user.unauthenticated";
   const isAuthenticated = current.matches("user.authenticated");
 
