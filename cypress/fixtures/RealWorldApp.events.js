@@ -66,6 +66,7 @@ export default {
   },
   "COMMENT.POSTED": function () {},
   "COMMENT.DELETE": function () {
+    // This action is currently non-deterministic, because we have not intercepted all XHRs.
     cy.get(".card-footer > button > .ion-trash-a").click({
       multiple: true,
       force: true,

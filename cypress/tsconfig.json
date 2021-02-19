@@ -1,6 +1,6 @@
 {
   "extends": "../tsconfig.json",
-  "include": ["./**/*.ts", "integration/sample.spec.js"],
+  "include": ["./**/*.ts"],
   "exclude": [],
   "compilerOptions": {
     "types": ["cypress", "@percy/cypress"],

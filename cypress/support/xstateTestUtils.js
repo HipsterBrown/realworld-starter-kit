@@ -1,7 +1,7 @@
 import { Machine } from "xstate";
 import { createModel } from "@xstate/test";
 
-export const testNoOp = () => {};
+export const testNothing = () => {};
 
 export const applyTest = (state, testFn) => {
   state.meta = { ...state.meta, test: testFn };

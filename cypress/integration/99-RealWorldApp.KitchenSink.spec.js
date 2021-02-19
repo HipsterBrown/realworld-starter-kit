@@ -7,7 +7,7 @@ import {
   createTestModel,
   getTestPlans,
   itVisitsAndRunsPathTests,
-  testNoOp,
+  testNothing,
   printVizHint,
 } from "../support/xstateTestUtils";
 import appMachine from "../fixtures/RealWorldApp.machine";
@@ -52,11 +52,11 @@ printVizHint(TEST_TITLE, testMachine);
 
 const testStates = {
   ...appTestStates,
-  Comment: testNoOp,
+  Comment: testNothing,
   ...commentTestStates,
-  Editor: testNoOp,
+  Editor: testNothing,
   ...editorTestStates,
-  Settings: testNoOp,
+  Settings: testNothing,
   ...settingsTestStates,
 };
 
