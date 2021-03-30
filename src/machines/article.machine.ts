@@ -276,7 +276,7 @@ export const articleMachine = createMachine<
               del(`articles/${context.slug}/comments/${event.id}`)
             ),
             comments:
-              context.comments?.filter(comment => comment.id === event.id) || []
+              context.comments?.filter(comment => comment.id !== event.id) || []
           };
         }
         return context;
